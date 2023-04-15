@@ -1,0 +1,184 @@
+:root {
+    --primary-color: #4263EB;
+    --secundary-color: #364FC7;
+
+    --grey-color-0: #0A0C0D;
+    --grey-color-1: #212529;
+    --grey-color-2: #495057;
+    --grey-color-3: #868E96;
+    --grey-color-4: #DEE2E6;
+    --grey-color-5: #F8F9FA;
+    --grey-opacity-1: rgba(33, 37, 41, 0.5);
+
+    --white-color: #FFFFFF;
+
+    --like-color: #d7443e;
+
+    --font-default: inter, sans-serif;
+
+    --font-size-title-1: 1.75rem;
+    --font-size-title-2: 1.25rem;
+    --font-size-text-1: 1rem;
+    --font-size-text-2: 0.875rem;
+    --font-size-text-3: 0.75rem;
+
+    --font-line-height-1: 2.5rem;
+    --font-line-height-2: 1.5rem;
+    --font-line-height-3: 1.75rem;
+    --font-line-height-4: 1rem;
+
+    --font-weight-1: 700;
+    --font-weight-2: 600;
+    --font-weight-3: 400;
+
+    --border-radius: 4px;
+
+    --border-radius-image: 50%
+}
+
+body {
+    width: 98vw;
+}
+
+.button--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-family: var(--font-default);
+    font-size: var(--font-size-text-2);
+    line-height: var(--font-line-height-4);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+    font-style: normal;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    width: 60px;
+    height: 38px;
+}
+
+.button--primary:hover {
+    background-color: var(--secundary-color);
+    cursor: pointer;
+}
+
+.follow__container > button {
+    background-color: var(--white-color);
+    color: var(--grey-color-1);
+    font-family: var(--font-default);
+    font-size: var(--font-size-text-2);
+    line-height: var(--font-line-height-4);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+    font-style: normal;
+    border: 1px solid var(--grey-color-1);
+    border-radius: var(--border-radius);
+    width: 54px;
+    height: 28px;
+}
+
+.follow__container > button:hover {
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: #EDF2FF;
+}
+
+.post__interaction > button {
+    background-color: var(--grey-color-1);
+    color: var(--white-color);
+    font-family: var(--font-default);
+    font-size: var(--font-size-text-2);
+    line-height: var(--font-line-height-4);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+    font-style: normal;
+    border: 2px solid var(--grey-color-1);
+    border-radius: var(--border-radius);
+    width: 90px;
+    height: 38px;
+}
+
+.post__interaction > button:hover {
+    background-color: var(--grey-color-0);
+    border: 2px solid var(--grey-color-0);
+    cursor: pointer;
+}
+
+.follow__container > button:focus {
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    color: var(--white-color);
+    background-color: var(--primary-color)
+}
+
+input {
+    border: 2px solid var(--grey-color-4);
+    border-radius: var(--border-radius);
+    padding-left: 1rem;
+    font-size: var(--font-size-text-1);
+    line-height: var(--font-line-height-4);
+    font-weight: var(--font-weight-3);
+    font-family: var(--font-default);
+}
+
+img {
+    height: 3.25rem;
+    width: 3.25rem;
+}
+
+.job {
+    font-family: var(--font-default);
+    font-size: var(--font-size-text-2);
+    line-height: var(--font-line-height-3);
+    font-weight: var(--font-weight-4);
+    color: var(--grey-color-2);
+    font-style: normal;
+}
+
+.text__container > p {
+    font-family: var(--font-default);
+    font-size: var(--font-size-text-1);
+    line-height: var(--font-line-height-3);
+    font-weight: var(--font-weight-3);
+    color: var(--grey-color-2);
+    font-style: normal;
+}
+
+h2 {
+    font-family: var(--font-default);
+    font-size: var(--font-size-title-1);
+    line-height: var(--font-line-height-1);
+    font-weight: var(--font-weight-1);
+    font-style: normal;
+}
+
+h3 {
+    font-family: var(--font-default);
+    font-size: var(--font-size-title-2);
+    line-height: var(--font-line-height-1);
+    font-weight: var(--font-weight-2);
+    font-style: normal;
+    color: var(--grey-color-1);
+}
+
+i {
+    color: var(--grey-opacity-1);
+}
+
+i:hover {
+    cursor: pointer;
+    color: var(--like-color);
+}
+
+i:focus {
+    cursor: pointer;
+    color: var(--like-color);
+}
+
+.number {
+    font-family: var(--font-default);
+    font-size: var(--font-size-text-2);
+    line-height: var(--font-line-height-3);
+    font-weight: var(--font-weight-4);
+    color: var(--grey-color-0);
+    font-style: normal;
+}

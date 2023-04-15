@@ -1,0 +1,237 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--grey-color-1);
+    position: fixed;
+    width: 100vw;
+    overflow: none;
+    height: 76px;
+    gap: 0.625rem;
+    padding: 1.875rem 1.875rem;
+}
+
+.header__image {
+    height: 0.9375rem;
+    width: 7.5rem;
+}
+
+.header__link {
+    font-family: var(--font-default);
+    font-size: var(--font-size-text-2);
+    line-height: var(--font-line-height-3);
+    font-weight: var(--font-weight-4);
+    color: var(--white-color);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.main__container {
+    padding-top: 6rem;
+    padding-left: 1rem;
+    width: 98vw;
+}
+
+.main__first__section {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 98vw;
+}
+
+.user__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 85vw;
+}
+
+.user__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 85vw;
+}
+
+.user__input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90vw;
+}
+
+.user__input__text {
+    height: 1.875rem;
+    width: 100%;
+}
+
+.user__input__textarea {
+    height: 6.25rem;
+    width: 100%;
+}
+
+.button__container {
+    display: flex;
+    width: 90vw;
+    justify-content: end;
+}
+
+.sugestion_list {
+    display: flex;
+    gap: 1rem;
+    overflow-y: auto;
+    width: 98vw;
+    align-items: center;
+}
+
+.follow__container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user__information__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user__information__container > h3 {
+    width: 10rem;
+}
+
+.follow__container > button {
+    margin-left: -1.875rem;
+}
+
+.main__second__section {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    gap: 20px;
+}
+
+.main__second__section > h2 {
+    margin-top: 0.625rem;
+}
+
+.post__container {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    gap: 20px;
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    
+}
+
+.user__information__post__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user__information__post__container > h3 {
+    width: 160px;
+    
+}
+
+.user__information__post__container > p {
+   
+}
+
+.text__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 90vw;
+}
+
+.text__container > h2 {
+    width: 95vw;
+}
+
+.post__interaction {
+    display: flex;
+    align-items: baseline;
+    gap: 0.625rem;
+}
+
+.modal__open__post {
+    width: 80vw;
+    height: 37.5rem;
+}
+
+.text__container--modal > h2 {
+    width: 75vw;
+}
+.text__container--modal > p {
+    width: 75vw;
+}
+
+.post__container > i {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: var(--grey-color-5);
+    border-radius: 50%;
+    padding: 0.3125rem 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .user__input__textarea {
+        height: 10rem;
+    }
+
+    .user__input__text {
+        height: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .sugestion_list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        overflow-y: auto;
+        align-items: flex-start;
+        width: 18.75rem;
+    }
+
+    .aside__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.9375rem;
+    }
+
+    .main__first__section {
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .user__container {
+        width: 60vw;
+    }
+    .user__input {
+        width: 60vw;
+    }
+
+    .button__container {
+        width: 53vw;
+    }
+
+    .user__input__textarea {
+        height: 10rem;
+        width: 90%;
+    }
+
+    .user__input__text {
+        height: 3rem;
+        width: 90%;
+    }
+
+}
